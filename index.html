@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ariana Osuna Vargas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+
+<body>
+    <div class="card mat_card" id="first_card">
+        <div id="banner"><img src="/Images/banner.jpg" alt="Banner"></div>
+        <div id="info" style="padding: 50px">
+            <div id="info_img">
+                <img class="profile_img" src="/Images/perfil.jpeg" alt="Foto de Perfil"></img>
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>
+            <div id="info_data">
+                <div id="acerca_de_info">
+                    <div>
+                        <h1>Ariana Osuna Vargas</h1>
+                        <div id="info_company">Editora</div>
+                        <div id="info_contact">
+                            <p>Buenos Aires, Argentina</p>
+                            <a href="#">Información de contacto</a>
+                        </div>
+                    </div>
+                    <div>
+                        <ul id="info_details" style="list-style: none;">
+                            <li>
+                                <a href="https://www.penguinlibros.com/">
+                                    <img src="/Images/penguin_logo.jpg" alt="Logo Penguin">
+                                    <h2>Penguin Random House Grupo Editorial</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.uba.ar/">
+                                    <img src="/Images/uba_logo.jpg" alt="Logo UBA">
+                                    <h2>Universidad de Buenos Aires</h2>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="info_actions">
+                    <button type="button" class="btn btn-primary">Tengo interés en</button>
+                    <button type="button" class="btn btn-light">Añadir sección</button>
+                    <button type="button" class="btn btn-light">Más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mat_card">
+      <div class="card-titles">
+          <h2>Acerca de</h2>
+          <div class="btn-edit" onclick="cambiar_parrafo()">
+              <a href="#" class="btn-right">
+                  <i class="fa fa-pen"></i>
+              </a>
+          </div>
+          <div>
+              <p id="text-acercade">Licenciada en Comunicación Social con orientación en Producción Multimedial. Editora y correctora de estilo con experiencia en el área de educación y capacitación tecnológica.</p>
+          </div>
+          <div>
+              <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:flex"></input>
+          </div>
+      </div>
+    
+        <div class="card mat_card">
+            <div id="Nombre"></div>
+        </div>
+        <div class="card mat_card">
+            <div id="Apellido"></div>
+        </div>
+        <div class="card mat_card">
+            <div id="Titulos"></div>
+        </div>
+        <input type="file" id="file1" onchange="showFile1(this)">
+    </div>
+
+        <div class="card mat_card">
+            <div class="card-titles">
+                <h2>Experiencia</h2>
+            </div>
+            <div id="info_img">
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>
+            <div id="info_data">
+                <div>
+                    <ul id="info_details" style="list-style: none;">
+                        <li>
+                            <a href="https://www.penguinlibros.com/">
+                                <img src="/Images/penguin_logo.jpg" alt="Logo Penguin">
+                                <h2>Penguin Random House Grupo Editorial</h2>
+                            </a>
+                            <p>Auxiliar de Producción de Audiolibros</p>
+                        </li>
+                        <li>
+                            <a href="https://entercommla.com/">
+                                <img src="/Images/entercomm_logo.jpg" alt="Logo Entercomm">
+                                <h2>Entercomm</h2>
+                            </a>
+                            <p>Ejecutiva de cuentas</p>
+                        </li>
+                        <li>
+                            <a href="https://binit.tech/">
+                                <img src="/Images/binit_logo.jpg" alt="Logo Binit">
+                                <h2>Binit</h2>
+                            </a>
+                        </li>
+                        <p>Consultora de Comunicaciones</p>
+                        <li>
+                            <a href="https://www.itba.edu.ar/">
+                                <img src="/Images/itba_logo.jpg" alt="Logo ITBA">
+                                <h2>ITBA</h2>
+                            </a>
+                        </li>
+                        <p>Asistente de Ventas</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mat_card">
+            <div class="card-titles">
+                <h2>Educación</h2>
+            </div>
+            <div id="info_img">
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>
+            <div id="info_data">
+                <div>
+                    <ul id="info_details" style="list-style: none;">
+                        <li>
+                            <a href="https://www.uba.ar/">
+                                <img src="/Images/uba_logo.jpg" alt="Logo UBA">
+                                <h2>Universidad de Buenos Aires</h2>
+                            </a>
+                            <p>Edición</p>
+                        </li>
+                        <li>
+                            <a href="https://www.educacionit.com/">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>Educación IT</h2>
+                            </a>
+                            <p>Marketing Digital</p>
+                        </li>
+                        <li>
+                            <a href="http://www.unm.edu.ar/">
+                                <img src="/Images/UNM_logo.jpg" alt="Logo UNM">
+                                <h2>Universidad Nacional de Moreno</h2>
+                            </a>
+                            <p>Licenciatura en Comunicación Social</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card mat_card">
+            <div class="card-titles">
+                <h2>Proyectos y Certificaciones</h2>
+            </div>
+            <div id="info_img">
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+            </div>
+            <div id="info_data">
+                <div>
+                    <ul id="info_details" style="list-style: none;">
+                        <li>
+                            <a href="https://mumuki.io/argentina-programa/certificates/verify/6E_Y_glgWr8dh6J3">
+                                <img src="/Images/mumuki_logo.svg" alt="Logo Mumuki">
+                                <h2>Certificación Sé programar</h2>
+                            </a>
+                            <p>Argentina Programa</p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://certificados.educacionit.com/certificados/cache/Ariana-Osuna-Vargas-1A572531/1A51564">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>Social Media Ads</h2>
+                            </a>
+                            <p>Educación IT</p>
+                        </li>
+                        <li>
+                            <a href="https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A52288">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>Front End Web Developer</h2>
+                            </a>
+                            <p>Educación IT</p>
+                        </li>
+                        <li>
+                            <a href="https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51318">
+                                <img src="/Images/googleactivate_logo.jpg" alt="Logo GoogleActivate">
+                                <h2>Introducción al Desarrollo Web I</h2>
+                            </a>
+                            <p>Google Actívate</p>
+                            <p>ID de la credencial: 44M QFS WGW</p>
+                        </li>
+                        <li>
+                            <a href="https://learndigital.withgoogle.com/link/1nur091p2ww">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>Programación Web</h2>
+                            </a>
+                            <p>Educación IT</p>
+                        </li>
+                        <li>
+                            <a href="https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51328">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>Javascript</h2>
+                            </a>
+                            <p>Educación IT</p>
+                        </li>
+                        <li>
+                            <a href="https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51318">
+                                <img src="/Images/educacionIT_logo.jpg" alt="Logo EducacionIT">
+                                <h2>User Experience (UX)</h2>
+                            </a>
+                            <p>Educación IT</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+            </script>
+        <script src="objetos.js"></script>
+        <script>
+          function cambiar_parrafo(){
+              document.getElementById("edit-acercade").style.display="block";
+              let texto = document.getElementById("text-acercade").innerText;
+              console.log(texto);
+          }
+          function myFunction2(valor){
+              document.getElementById("text-acercade").innerText=valor;
+          }
+          function logMessage(message){
+              console.log(message + "<br>");
+          }
+          let textarea=document.getElementById("text-acercade")
+          textarea.addEventListener('keyup', (e) => {
+              logMessage('Key "${e.key}" released [event : keyup]');
+              if (e.key=="Enter"){
+                  document.getElementById("edit-acercade").style.display="none"
+              }
+          });
+          function showFile(input) {
+              let file = input.files[0];
+              let reader = new FileReader();
+              reader.readAsText(file);
+              reader.onload = function(){
+                  console.log(reader.result);
+                  document.getElementById("text-acercade").innerText=reader.result;
+              };
+              reader.onerror=function(){
+                  console.log(reader.error);
+              };
+          }
+          </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.mat_card {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: #9bc5ef;
+}
+.mat_card#first_card {
+    padding: 0;
+}
+div#banner {
+    display: flex;
+}
+div#banner img {
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+}
+.profile_img {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+div#info_actions {
+    display: flex;
+    margin-top: 25px;
+}
+div#info_data ul#info_details li a {
+    color: black;
+    display: flex;
+    text-decoration: flex;
+}
+div#info_data ul#info_details li a h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    align-self: center;
+    vertical-align: baseline;
+}
+div#info_data ul#info_details li a img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+ul.items-list {
+    list-style: none inside;
+}
+ul.items-list li {
+    display: flex;
+    margin: 10px 0;
+    padding-left: 0;
+}
+ul.items-list li div.data-container {
+    flex-grow: 1;
+}
+div#acerca_de_info {
+    display: flex;
+    justify-content: space-between;
+}
