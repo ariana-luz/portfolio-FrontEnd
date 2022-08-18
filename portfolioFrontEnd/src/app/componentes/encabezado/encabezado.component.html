@@ -1,17 +1,20 @@
 <div class="card mat_card" id="first_card">
-    <div id="banner"><img src="https://media-exp1.licdn.com/dms/image/C4D16AQFoUceXro0LAg/profile-displaybackgroundimage-shrink_350_1400/0/1614458133264?e=1666224000&v=beta&t=7f5EuQbQ9c6P-Bb6OAr55_3rS2hjbfW_TrT5Fkwgl2w" alt="Banner"></div>
+    <div id="banner">
+        <img [src]="miPortfolio.backImage" alt="Banner">
+    </div>
     <div id="info" style="padding: 50px">
         <div id="info_img">
-            <img class="profile_img" src="https://media-exp1.licdn.com/dms/image/C4D03AQGprUkrN0t3lQ/profile-displayphoto-shrink_800_800/0/1660605594052?e=1666224000&v=beta&t=ulij6Xx8cnVCXDadQ8Qvmplo3gccZ16EMVt6qyhIU-0" alt="Foto de Perfil">
+            <img class="profile_img"
+                [src]="miPortfolio.image" alt="Foto de Perfil">
             <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
         </div>
         <div id="info_data">
             <div id="acerca_de_info">
                 <div>
-                    <h1>Ariana Osuna Vargas</h1>
-                    <div id="info_company">Editora</div>
+                    <h1>{{miPortfolio.name}}</h1>
+                    <div id="info_company">{{miPortfolio.position}}</div>
                     <div id="info_contact">
-                        <p>Buenos Aires, Argentina</p>
+                        <p>{{miPortfolio.location}}</p>
                         <a href="#">Información de contacto</a>
                     </div>
                 </div>
@@ -19,13 +22,15 @@
                     <ul id="info_details" style="list-style: none;">
                         <li>
                             <a href="https://www.penguinlibros.com/">
-                                <img src="https://www.penguinlibros.com/ar/img/penguinlibros-ar-logo-16565132614.jpg" alt="Logo Penguin">
+                                <img src="https://www.penguinlibros.com/ar/img/penguinlibros-ar-logo-16565132614.jpg"
+                                    alt="Logo Penguin">
                                 <h2>Penguin Random House Grupo Editorial</h2>
                             </a>
                         </li>
                         <li>
                             <a href="https://www.uba.ar/">
-                                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_200_200/0/1519861386584?e=1668643200&v=beta&t=uUQmv_to7EDo1L-jC6EKVmDbDgoe4JdD0oF5HltuMWg" alt="Logo UBA">
+                                <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_200_200/0/1519861386584?e=1668643200&v=beta&t=uUQmv_to7EDo1L-jC6EKVmDbDgoe4JdD0oF5HltuMWg"
+                                    alt="Logo UBA">
                                 <h2>Universidad de Buenos Aires</h2>
                             </a>
                         </li>
@@ -39,4 +44,4 @@
             </div>
         </div>
     </div>
-  </div>
+</div>

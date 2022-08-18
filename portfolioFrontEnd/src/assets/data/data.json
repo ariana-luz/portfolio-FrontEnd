@@ -1,0 +1,52 @@
+{
+    "name": "Ariana Osuna Vargas",
+    "backImage": "https://media-exp1.licdn.com/dms/image/C4D16AQFoUceXro0LAg/profile-displaybackgroundimage-shrink_200_800/0/1614458133264?e=1666224000&v=beta&t=gI0CjdUBbzhQVBgyl2voPqlA5MozRmKxr7Wfz1caM1o",
+    "image": "https://media-exp1.licdn.com/dms/image/C4D03AQGprUkrN0t3lQ/profile-displayphoto-shrink_200_200/0/1660605594052?e=1666224000&v=beta&t=Xlt1p5Z1GMEBMhlBxxhF-eKT2sKqbcvw2EOx56g9i_o",
+    "position": "Editora",
+    "company": {
+        "name": "Penguin Random House Grupo Editorial",
+        "img": "https://media-exp1.licdn.com/dms/image/C560BAQGTyonVJL9Jug/company-logo_100_100/0/1657901209382?e=1668643200&v=beta&t=7G3cAZmeWZVnbC_c_hMLScYtJ1bh1nOe_P7Yh4r8VMI",
+        "url": "https://www.penguinlibros.com/ar/"
+    },
+    "school": {
+        "name": "Universidad de Buenos Aires",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_100_100/0/1519861386584?e=1668643200&v=beta&t=6r5LMdfkiXQ7HwLII0jI04bObvzRKo7JpVfqOD-GAQs",
+        "url": "https://www.uba.ar/"
+    },
+    "location": "Buenos Aires, Argentina",
+    "about": "Licenciada en Comunicación Social y Editora",
+    "experience": [{
+        "position": "Auxiliar de Producción de Audiolibros",
+        "company": "Penguin Random House Grupo Editorial",
+        "img": "https://media-exp1.licdn.com/dms/image/C560BAQGTyonVJL9Jug/company-logo_100_100/0/1657901209382?e=1668643200&v=beta&t=7G3cAZmeWZVnbC_c_hMLScYtJ1bh1nOe_P7Yh4r8VMI",
+        "mode": "full-time",
+        "start": "oct 2021",
+        "end": "actualidad",
+        "timeElapsed": "10 meses"
+    }],
+    "education": [{
+        "school": "Universidad de Buenos Aires",
+        "career": "Edición",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_100_100/0/1519861386584?e=1668643200&v=beta&t=6r5LMdfkiXQ7HwLII0jI04bObvzRKo7JpVfqOD-GAQs",
+        "url": "https://www.uba.ar/",
+        "start": "2014",
+        "end": "2021"
+    },
+    {
+        "school": "Universidad Nacional de Moreno",
+        "career": "Licenciatura en Comunicación Social",
+        "img": "http://www.unm.edu.ar/images/UNM_blue_logo.jpg",
+        "url": "http://www.unm.edu.ar/",
+        "start": "2012",
+        "end": "2017"
+    },
+    {
+        "school": "Educación IT",
+        "career": "Marketing Digital",
+        "img": "https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg",
+        "url": "https://www.educacionit.com/",
+        "start": "2012",
+        "end": "2017"
+    }
+]
+}

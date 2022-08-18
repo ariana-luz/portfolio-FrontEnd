@@ -7,6 +7,8 @@ import { EncabezadoComponent } from './componentes/encabezado/encabezado.compone
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educacion/experiencia-y-educacion.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
+import { PortfolioService } from 'src/app/servicio/portfolio.service';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { LogrosComponent } from './componentes/logros/logros.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
