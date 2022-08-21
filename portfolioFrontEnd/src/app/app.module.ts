@@ -9,6 +9,7 @@ import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educ
 import { LogrosComponent } from './componentes/logros/logros.component';
 import { PortfolioService } from 'src/app/servicio/portfolio.service';
 import { HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,13 @@ import { HttpClientModule} from '@angular/common/http';
     EncabezadoComponent,
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
-    LogrosComponent
+    LogrosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
