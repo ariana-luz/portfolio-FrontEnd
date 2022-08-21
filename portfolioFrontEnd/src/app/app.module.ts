@@ -10,6 +10,7 @@ import { LogrosComponent } from './componentes/logros/logros.component';
 import { PortfolioService } from 'src/app/servicio/portfolio.service';
 import { HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { LoginComponent } from './componentes/login/login.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
