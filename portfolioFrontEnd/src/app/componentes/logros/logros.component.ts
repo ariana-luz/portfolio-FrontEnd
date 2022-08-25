@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/servicio/portfolio.service';
 
 @Component({
   selector: 'app-logros',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logros.component.less']
 })
 export class LogrosComponent implements OnInit {
+  certificacionesList: any;
 
-  constructor() { }
+  constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      console.log(data);
+      this.certificacionesList = data.certificaciones;
+    });
   }
-
 }

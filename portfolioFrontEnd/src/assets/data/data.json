@@ -27,7 +27,7 @@
     "education": [{
         "school": "Universidad de Buenos Aires",
         "career": "Edición",
-        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_100_100/0/1519861386584?e=1668643200&v=beta&t=6r5LMdfkiXQ7HwLII0jI04bObvzRKo7JpVfqOD-GAQs",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQF-QztqGXBokQ/company-logo_200_200/0/1519861386584?e=1669248000&v=beta&t=27aAKJyG4NGNzQFbNSkXvTTqCTcq0hAQQ9GAqYDCjKs",
         "url": "https://www.uba.ar/",
         "start": "2014",
         "end": "2021"
@@ -35,7 +35,7 @@
     {
         "school": "Universidad Nacional de Moreno",
         "career": "Licenciatura en Comunicación Social",
-        "img": "http://www.unm.edu.ar/images/UNM_blue_logo.jpg",
+        "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQGjbYHYBHqBbA/company-logo_200_200/0/1642946584873?e=1669248000&v=beta&t=pnxYEWdoNr4ShQf_RpfmC1yXf_vbZYyKiTgIJkRPg98",
         "url": "http://www.unm.edu.ar/",
         "start": "2012",
         "end": "2017"
@@ -43,10 +43,46 @@
     {
         "school": "Educación IT",
         "career": "Marketing Digital",
-        "img": "https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg",
+        "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
         "url": "https://www.educacionit.com/",
         "start": "2012",
         "end": "2017"
-    }
+    }],
+    "certificaciones": [{
+    "school": "Argentina Programa",
+    "career": "Sé programar",
+    "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQHhDPmHBm3pCg/company-logo_200_200/0/1563979482487?e=1669248000&v=beta&t=GT87le1oG1LsBeVgvHoqcS1Dj-UZtt0fDAnGwluHG0Y",
+    "url": "https://mumuki.io/argentina-programa/certificates/verify/6E_Y_glgWr8dh6J3"},
+    {
+    "school": "Educación IT",
+    "career": "Social Media Ads",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
+    "url": "https://certificados.educacionit.com/certificados/cache/Ariana-Osuna-Vargas-1A572531/1A51564"},
+    {
+    "school": "Educación IT",
+    "career": "FrontEnd Web Developer",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
+    "url": "https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A52288"},
+    {
+    "school": "Google Activate",
+    "career": "Introducción al Desarrollo Web",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQGlBBVXCfSVag/company-logo_200_200/0/1570003065196?e=1669248000&v=beta&t=Q_lbVCl49UsHesuvUoQ0zAQz4Y_1z8P1IISi8dV_Kkw",
+    "url": "https://learndigital.withgoogle.com/link/1nur091p2ww"},
+    {
+    "school": "Educación IT",
+    "career": "Programación Web",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
+    "url": "https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51818"},
+    {
+    "school": "Educación IT",
+    "career": "Javascript",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
+    "url": "https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51328"},
+    {
+    "school": "Educación IT",
+    "career": "User Experience (UX)",
+    "img": "https://media-exp1.licdn.com/dms/image/C4D0BAQHWD6W0Nbd8sw/company-logo_200_200/0/1647956251519?e=1669248000&v=beta&t=9C8ttHvnUjXsSC78dksjDjVK3nukYu7Zgt3DYj9rF5g",
+    "url": "https://certificados.educacionit.com/api/Ariana-Osuna-Vargas-1A572531/1A51318"}
+
 ]
 }
