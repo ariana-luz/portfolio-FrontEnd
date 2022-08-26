@@ -11,6 +11,7 @@ import { PortfolioService } from 'src/app/servicio/portfolio.service';
 import { HttpClientModule} from '@angular/common/http';
 import { LoginComponent } from './componentes/login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
     LogrosComponent,
-    LoginComponent
+    LoginComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
